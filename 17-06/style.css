@@ -1,0 +1,33 @@
+
+#container-pai { 
+    height: 500px; /* Altura*/
+    background-color: black;
+    padding: 25px; /* Margem interna */
+    display: flex;
+    flex-direction:row; /* Controla o eixo principal */
+    justify-content: center; /* Controla o espaçamento  entre itens*/
+    gap: 15px /* Espaço entre itens*/;
+    align-items: center; /* Controla o eixo secundario */
+    flex-wrap: wrap; 
+
+}
+
+#container-1{ 
+    background-color: rgba(13, 172, 40, 0.678);
+    padding: 15px;
+}
+
+#container-2 { 
+    background-color: rgb(250, 250, 250);
+    padding: 15px;
+}
+
+#container-3 { 
+    background-color: rgb(175, 24, 24);
+    padding: 15px;
+}
+
+.fonte { 
+    color: rgb(30, 32, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

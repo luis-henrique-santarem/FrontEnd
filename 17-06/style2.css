@@ -1,0 +1,80 @@
+#topo { 
+    background-color: #4A90E2;
+    color: white;
+    padding: 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-links { 
+    display: flex;
+    gap: 15px;   
+}
+
+#container-pai { 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+#container-1 { 
+    flex: 1;
+   background-color:lightgrey;
+   text-align: center;
+   padding: 20px;
+   border-radius: 8px;
+}
+
+#container-2 { 
+    flex: 1;
+    background-color:lightgrey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#container-3 {
+    flex: 1; 
+    background-color:lightgrey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#container-pai-2 { 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.caixa { 
+    flex: 1;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+#base { 
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
