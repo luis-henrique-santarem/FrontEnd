@@ -1,0 +1,53 @@
+header { 
+    display: flex;
+    background-color: rgb(157, 121, 190);
+    justify-content: space-between;
+    align-items: center;
+    /* Cima - Direita - Baixo - Esquerda */
+    padding: 0px 15px  0px  15px;
+}
+
+main { 
+    margin: 5px;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 5px;
+
+}
+
+#sobre { 
+    background-color: darkred;
+}
+#produtos { 
+    background-color: firebrick;
+}
+
+#depoimentos { 
+    background-color: crimson;
+}
+
+#banner { 
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1EJMERWC8tpiuDq1NpNcucRHHxKjlOagmXA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+
+#banner div { 
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 15px;
+    border-radius: 20px;
+}
