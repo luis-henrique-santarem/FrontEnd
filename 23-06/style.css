@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-pai { 
+    background-color: black;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap; /* Controla como os itens se comportam quando a tela diminui */
+    gap: 20px;
+}
+
+
+.container-pai div { 
+    padding: 5px;
+    
+}
+
+#filho-1 { 
+    background-color: blue;
+    order: 1;
+}
+
+#filho-2 { 
+    background-color: brown;
+    align-self: safe;
+}
+
+
+#filho-3 { 
+    background-color: yellow;
+    
+}
