@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header { 
+    display: flex; /* Coloca os elementos lado a lado*/
+    background-color: rgb(37, 37, 37); /* Cor do fundo do cabeçalho*/
+    justify-content: space-between; /* Controla o espaçamento  entre itens*/
+    align-items: center; /* Controla o eixo secundario */
+    padding: 15px 30px; /* Margem interna */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    
+    
+}
+
+a { 
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(211, 142, 13);  /* Cor do texto */
+    
+
+}
+
+#banner {  
+        height: 500px; /* Altura */
+        background-image: url(https://binaryfortressdownloads.com/Download/WPF/Images/21612/WallpaperFusion-call-of-duty-ghosts-1680x480.jpg); /* Imagem de fundo */
+        background-repeat: no-repeat; /* Não repete a imagem */
+        background-size: cover; /* A imagem cobre toda a área */
+        display: flex; /* Coloca os elementos lado a lado*/
+        align-items: center; /* Controla o eixo secundario */
+        justify-content: center; /* Controla o espaçamento  entre itens*/
+        
+    }
+
+ .banner-content { 
+    background-color: rgba(0, 0, 0, 0.603); /* Cor do fundo do cabeçalho*/
+    padding: 30px; /* Margem interna */
+    border-radius: 15px; /* Cantos arrendondados */
+    padding: 15px 30px; /* Margem interna */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+
+ }
+
+ .cards { 
+    display: flex; /* Coloca os elementos lado a lado*/
+    justify-content: center; /* Controla o espaçamento  entre itens*/
+    gap: 30px; /* Espaço entre itens*/
+   
+    flex-wrap: wrap; /* Controla como os itens se comportam quando a tela diminui */
+    padding: 20px; /* Margem interna */
+ }
+
+ .card { 
+    background-color: rgb(240, 136, 0); /* Cor do fundo do cabeçalho*/
+    padding: 30px; /* Margem interna */
+    border-radius: 15px; /* Cantos arrendondados */
+    width: 200px; /* Largura fixa */
+    text-align: center; /* Centraliza o texto */
+ }
+
+.card img {  /* Pega todas as imagens dentro de um elemento com a classe .card*/
+    width: 200px; /* Largura fixa */
+    border-radius: 30px; /* Cantos arrendondados */
+}
+
+section { 
+    background-color: black; /* Cor do fundo do cabeçalho*/
+}
+
+
+footer { 
+    display: flex; /* Coloca os elementos lado a lado*/
+    background-color: rgb(37, 37, 37); /* Cor do fundo do cabeçalho*/
+    justify-content: center; /* Controla o espaçamento  entre itens*/
+    padding: 25px; /* Margem interna */
+    color: aliceblue; /* Cor do texto */
+    
+
+}
+
+.sobre { 
+    color: black; /* Cor do texto */
+    padding: 25px; /* Margem interna */
+    justify-content: center; /* Controla o espaçamento  entre itens*/
+    display: flex; /* Coloca os elementos lado a lado*/
+    
+    
+}
+
+.sobre-jogo { 
+    text-align: center; /* Centraliza o texto */
+    padding: 30px; /* Margem interna */
+    background-color: rgb(240, 136, 0);; /* Cor do fundo */
+    border-radius: 20px; /* Cantos arrendondados */
+}
+
+#button { 
+    background-color: rgba(128, 128, 128, 0.253); /* Cor do fundo */
+    color: aliceblue; /* Cor do texto */
+    border-color: rgb(240, 136, 0); /* Cor da borda */
+}
+
+
+#form-container { 
+    background-color: black; /* Cor do fundo */
+    height: 900px; /* Altura */
+    display: flex; /* Coloca os elementos lado a lado*/
+    justify-content: center; /* Controla o espaçamento  entre itens*/
+    align-items: center;  /* Controla o eixo secundario */
+    background-image: url(https://wallpapers.com/images/hd/call-of-duty-ghost-cg-sniper-rifle-aiming-5ecxoyitq9lmk0et.jpg);  /* Imagem de fundo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* A imagem cobre toda a área */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    
+}
+
+#form-container form { 
+    background-color: rgba(255, 255, 255, 0.13); /* Cor do fundo */
+    width: 500px;  /* Largura fixa */
+    padding: 50px; /* Margem interna */
+    border-radius: 15px; /* Cantos arrendondados */
+    display: flex; /* Coloca os elementos lado a lado*/
+    flex-direction: column; /* Direção vertical */
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="senha"],
+select,
+textarea { 
+    padding: 10px;
+    /* Espessura | Tipo de preenchimento| cor */
+    border: 1px solid #ccc; /* Aplica uma borda no elemento*/
+    border-radius: 5px; /* Cantos arrendondados */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+ margin-right: 5px; /* Espaço entre o campo eo texto */
+}
+
+button { 
+    padding: 10px; /* Margem interna */
+    background-color: wheat; /* Cor do fundo */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Cantos arrendondados */
+    cursor: pointer; /*  Muda o cursor ao passar o mouse */
+}
+
+button:hover { 
+    background-color: blanchedalmond; /* Cor ao passar o mouse */
+}
+
+table {
+    height: 300px; /* Altura da tabela */
+    border-collapse: collapse; /* Junta as bordas da tabela  */
+    border-radius: 15px; /* Cantos arrendondados */
+    overflow: hidden; /* Escondem partes que ultrapassam a borda */
+    width: 100%;  /* Largura fixa */
+     /* Aplica sombra
+    Direita/Esq | Baixa/Cima | Dispersão
+    */
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2); /* Sombra da tabela */
+    color: white; /* Cor do texto */
+  }
+
+  th, td {
+    border: 1px solid #333; /* Borda das células */
+    padding: 8px; /* Margem interna */
+    text-align: left; /* Alinhamento do texto à esquerda */
+  }
+
+  th {
+    background-color: #5c5c5c; /* Cor do fundo */
+    color: white; /* Cor do texto */
+  }
