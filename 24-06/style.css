@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#form-container { 
+    background-color: black;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container form { 
+    background-color: white;
+    width: 500px;
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="senha"],
+select,
+textarea { 
+    padding: 10px;
+    /* Espessura | Tipo de preenchimento| cor */
+    border: 1px solid #ccc; /* Aplica uma borda no elemento*/
+    border-radius: 5px; /* Cantos arrendondados */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+ margin-right: 5px;
+}
+
+button { 
+    padding: 10px;
+    background-color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { 
+    background-color: blanchedalmond;
+}

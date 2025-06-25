@@ -1,0 +1,22 @@
+
+  table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+     /* Aplica sombra
+    Direita/Esq | Baixa/Cima | Dispersão
+    */
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.2);
+  }
+
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #5c5c5c;
+    color: white;
+  }
