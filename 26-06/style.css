@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header { 
+    width: 97.5vw;
+    height: 10vh;
+    padding: 0px 50px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+header img{
+    height: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container-banner {
+    background-image: url(https://e0.pxfuel.com/wallpapers/742/956/desktop-wallpaper-sport-club-internacional.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 10px black;
+    
+}
+
+button img { 
+    width: 60%;
+    height: 60%;
+}
+
+#perfil { 
+    padding: 5px;
+    height:  6vh;
+    
+    
+}
+
+#num {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px 5px;
+    
+}
+
+nav { 
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
