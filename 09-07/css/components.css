@@ -1,0 +1,25 @@
+.button-confirm {
+    background-color: var(--cor-confirm);
+
+}
+
+.button-cancel {
+    background-color: var(--cor-cancel);
+
+}
+
+.button-register {
+    background-color: var(--cor-primaria);
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--cor-secundaria);
+    width: 25vw;
+
+}

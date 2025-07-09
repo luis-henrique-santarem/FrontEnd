@@ -1,0 +1,8 @@
+#banner-principal {
+    font-size: var(--large);
+    background-image: url(https://images.pexels.com/photos/18666405/pexels-photo-18666405.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+}
